@@ -14,9 +14,9 @@ int main(void)
 	time_t t;
 
 	srand((int) time(&t));
-	while (ascii > 150)
+	while (ascii > 128)
 	{
-		random = rand() % 150;
+		random = rand() % 128;
 		password[i] = random;
 		ascii -= random;
 		i++;
