@@ -4,6 +4,7 @@
  * swap_int - swaps the value of the integers
  * @a: int a
  * @b: int b
+ * Return: 0
  */
 void swap_int(int *a, int *b);
 {
