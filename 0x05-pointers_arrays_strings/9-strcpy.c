@@ -6,7 +6,7 @@
  * @src: source
  * Return: string
  */
-char *_strcpy(char *dest, *src)
+char *_strcpy(char dest, src)
 {
 	int len = 0;
 
