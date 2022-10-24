@@ -10,7 +10,7 @@
 int main(void)
 {
 	int ascii = 1050, i = 0, j, random;
-	char password[200];
+	char password[100];
 	time_t t;
 
 	srand((int) time(&t));
