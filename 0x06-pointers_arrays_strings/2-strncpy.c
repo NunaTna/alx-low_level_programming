@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	while (b < n)
 	{
-		dest[j] = '\0';
+		dest[b] = '\0';
 		b++;
 	}
 	return (dest);
